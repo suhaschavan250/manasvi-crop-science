@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Staatliches&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.bgimage{
+    height: 85vh;
+    width: 98vw;
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2vh;
+    margin: auto;
+    margin-top: 16vh;
+    animation: imagechange 20s linear infinite ;
+
+}
+h1{
+ font-family: 'Dancing Script', cursive;
+   font-size: 8vh;
+   font-weight: bolder; 
+   margin-top: 15vh;
+}
+@keyframes imagechange {
+  0%{
+    background-image: url('F:\reactjs\suhasweb\public\images2\grapes2.jpg');
+  }
+  25%{
+    background-image: url('F:\reactjs\suhasweb\public\images2\grapes3.jpg');
+  }
+   50%{
+    background-image: url('F:\reactjs\suhasweb\public\images2\grapes4.jpg');
+  }
+  100%{
+    background-image: url('F:\reactjs\suhasweb\public\images2\grapes1.jpg');
+  }
+}
+  @media(max-width:768px){
+    .bgimage{
+      height: 88vh;
+      width: 110vw;
+       
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 2vh;
+     margin: auto; 
+      margin-top: 12vh;
+      animation: imagechange 20s linear infinite ;
+      box-shadow: 15px 15px 15px black;
+      margin-bottom: 2vh;
+  
+  }
+  @keyframes imagechange {
+    0%{
+      background-image: url('F:\reactjs\suhasweb\public\images3\photo1.jpg');
+    }
+    25%{
+      background-image: url('F:\reactjs\suhasweb\public\images3\photo2.jpg');
+    }
+     50%{
+      background-image: url('F:\reactjs\suhasweb\public\images3\photo3.jpg');
+    }
+    75%{
+      background-image: url('F:\reactjs\suhasweb\public\images3\photo4.jpg');
+    }
+    100%{
+      background-image: url('F:\reactjs\suhasweb\public\images3\photo4.png');
+    }
+  }
+  h1{
+    font-family: 'Dancing Script', cursive;
+      font-size: 5vh;
+      font-weight:bolder; 
+      margin-top: 15vh;
+   }
+}

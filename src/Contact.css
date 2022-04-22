@@ -1,0 +1,260 @@
+#contact{
+    height: 10vh;
+    background-color: gray;
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    outline: none;
+    border-bottom: 3px solid tomato;
+}
+.company{
+    white-space: pre-line; 
+    
+    height: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2vh;
+    font-weight: 600;
+    box-shadow: 10px 10px 10px grey;
+    outline: none;
+}
+   
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.home{
+    white-space: pre-line;  
+    
+    height: 40vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2vh;
+    font-weight: 600;
+    box-shadow: 10px 10px 10px grey;
+    outline: none;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    width: 49vw;
+    text-align: center;
+}
+.title{
+    font-size: large;
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px grey;
+    outline: none;
+}
+.main{
+    height: 90vh;
+
+
+}
+.com{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    border-bottom: 2px double hotpink;
+    margin: 2vh;
+    
+}
+.hom{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    border-bottom: 2px double hotpink;
+    margin: 2vh;
+}
+.company:hover{
+background-color:gainsboro;
+}
+.home:hover{
+
+    background-color:gainsboro;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    
+}
+.other{
+    box-shadow: 10px 10px 10px grey;
+    width: 49vw;
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.kiran{
+    white-space: pre-line;  
+     
+    background-color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 4vh;
+    padding: 2vh;
+    
+    box-shadow: 5px 5px 10px  gray;
+    color:black;
+
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    height: 30vh;
+    width: 30vh;
+    background-color: ghostwhite;
+    border-radius: 15vh;
+    box-shadow: 5px 5px 5px  orchid;
+    
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.ad{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.naw{
+    bottom: 0vh;
+    margin-top: 13vh;
+    margin-bottom: 2vh;
+    font-size:medium;
+    color: navy;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media(max-width:768px){
+    #contact{
+        height: 8vh;
+        background-color: gray;
+       
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        outline: none;
+        border-bottom: 3px solid tomato;
+    
+    }
+    .company{
+        white-space: pre-line; 
+        
+        height: 50%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        word-spacing: 2vh;
+        font-weight: 600;
+        box-shadow: 10px 10px 10px grey;
+        outline: none;
+    }
+       
+    .main{
+        display: flex;
+        flex-direction: row;
+        height: 90vh;
+        width: 100vw;
+        margin-top: 2vh;
+        box-shadow: 15px 15px 15px black;
+        
+    }
+    .other{
+        /* border: 2px solid gray; */
+        width: 55vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .address{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70vh;
+        width: 55vw;
+        text-align: center;
+    }
+    .company{
+        white-space: pre-line; 
+        
+        height: 40vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        word-spacing: 2vh;
+        font-weight: 600;
+        box-shadow: 10px 10px 10px grey;
+        outline: none;
+    }
+    .title{
+        font-size: medium;
+        color: green;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        box-shadow: 10px 10px 10px grey;
+        outline: none;
+        margin-top: 1vh;
+    }
+    .main{
+        height: 90vh;
+         width: 110vw;
+    margin: auto;
+    margin-top: 1vh;
+   
+    }
+    .follow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        height: 20vh;
+        width: 20vh;
+        background-color: ghostwhite;
+        border-radius: 10vh;
+        box-shadow: 5px 5px 5px  orchid;
+        
+    }
+    .naw{
+        bottom: 0vh;
+        margin-top: 20vh;
+        margin-bottom: 2vh;
+        font-size:medium;
+        color: rgb(178, 60, 27);
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .kiran{
+        white-space: pre-line;  
+         
+        background-color:azure;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        line-height: 2vh;
+        padding: 2vh;
+        
+        box-shadow: 5px 5px 10px  gray;
+        color:black;
+    
+    }
+    .home{
+        white-space: pre-line;  
+        
+        height: 40vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        word-spacing: 0.5vh;
+        font-weight: 600;
+        box-shadow: 10px 10px 10px grey;
+        outline: none;
+    }
+}

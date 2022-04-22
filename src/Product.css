@@ -1,0 +1,179 @@
+
+#item{
+    height: 90vh;
+    width: 98vw;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+  
+  }
+  .images img{
+      width: 32vw;
+    height: 90vh;
+    
+    background-size: cover;
+  }
+  .info{
+      width: 64vw;
+  
+  }
+  .title{
+      height: 8vh;
+      border: 1px double aqua;
+      font-family: cursive;
+  }
+  .composition{
+      height: 15vh;
+      border: 1px double aqua;
+      font-family: cursive;
+  }
+  .dose{
+      height: 20vh;
+      border: 1px double aqua;
+      font-family: cursive;
+  }
+  .benefit{
+      height: 45vh;
+      border: 1px double aqua;
+      font-family: cursive;
+  }
+  span{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+      margin-right: auto;
+  }
+  #products{
+      height: 10vh;
+      background-color: gray;
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+      border-bottom: 3px solid tomato;
+  }
+  .text{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: larger;
+      font-weight: bolder;
+      color: whitesmoke;
+      }
+       .title:hover{
+          height: 8vh;
+          border: 1px double black;
+          background-color: aquamarine;
+          color: slateblue;
+          
+      }
+      .composition:hover{
+          height: 15vh;
+          border: 1px double aqua;
+          background-color: aquamarine;
+          color: slateblue;
+          
+      
+      }
+      .dose:hover{
+          height: 20vh;
+          border: 1px double aqua;
+          background-color: aquamarine;
+          color: slateblue;
+          
+      }
+      .benefit:hover{
+          height: 45vh;
+          border: 1px double aqua;
+          background-color: aquamarine;
+          color: slateblue;
+          
+      } 
+      @media(max-width:768px){
+          #products{
+              height: 8vh;
+              background-color: gray;
+             
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              outline: none;
+              border-bottom: 3px solid tomato;
+              border-radius: 2vh;
+              box-shadow: 15px 15px 15px black;
+              width: 110vw;
+          }  
+          #item{
+              height: 80vh;
+              width: 110vw;
+              background-color: azure;
+              display: flex;
+              flex-direction: row;
+              margin: auto;
+              border-radius: 2vh;
+              box-shadow: 15px 15px 15px black;
+              margin-bottom: 5vh;
+            
+            }
+          .images img{
+              width: 55vw;
+            height: 80vh;
+            border: 2vh;
+            background-size: cover;
+          }
+          .info{
+              width: 55vw;
+          
+          }
+          .title{
+              height: 5vh;
+              border: 1px double aqua;
+              border-style: none;
+              font-family: cursive;
+          }
+          .composition{
+              height: 15vh;
+              border: 1px double aqua;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          .dose{
+              height: 15vh;
+              border: 1px double aqua;
+              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+          .benefit{
+              height: 45vh;
+              border: 1px double aqua;
+              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              border-style: none;
+          }
+          .title:hover{
+              height: 8vh;
+              border: 1px double black;
+              background-color: aquamarine;
+              color: slateblue;
+              
+          }
+          .composition:hover{
+              height: 15vh;
+              border: 1px double aqua;
+              background-color: aquamarine;
+              color: slateblue;
+              
+          
+          }
+          .dose:hover{
+              height: 20vh;
+              border: 1px double aqua;
+              background-color: aquamarine;
+              color: slateblue;
+              
+          }
+          .benefit:hover{
+              height: 45vh;
+              border: 1px double aqua;
+              background-color: aquamarine;
+              color: slateblue;
+              
+          } 
+      }
